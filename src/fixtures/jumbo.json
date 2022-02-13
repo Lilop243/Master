@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "",
+    "subTitle": "Disfruta de una experiencia unica en tu televisor o movil.",
+    "image": "/images/misc/home-tv.jpg",
+    "alt": "Tiger King on Netflix",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "+",
+    "subTitle": "Guarde sus datos y vea todos sus favoritos sin conexión.",
+    "image": "/images/misc/home-mobile.jpg",
+    "alt": "Watch on mobile",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 3,
+    "title": "",
+    "subTitle": "Transmita películas y programas de TV ilimitados en su teléfono, tableta, computadora portátil y TV sin pagar más.",
+    "image": "/images/misc/home-imac.jpg",
+    "alt": "Money Heist on Netflix",
+    "direction": "row"
+  }
+]
