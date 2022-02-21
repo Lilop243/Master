@@ -1,19 +1,19 @@
 import Firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
-import {seedDatabase} from '../seed';
+// import {seedDatabase} from '../seed';
 
 const config = {
-  apiKey: "AIzaSyCwfFuj8erx21h1W7bUvlPLl8dUUmrGxW8",
-  authDomain: "masn-adf14.firebaseapp.com",
-  projectId: "masn-adf14",
-  storageBucket: "masn-adf14.appspot.com",
-  messagingSenderId: "248753456223",
-  appId: "1:248753456223:web:784cda0294025072e347ea"
+  apiKey: "AIzaSyA0kLa4R9Rz8xKvXXjnAfkTFnObAG9OsRk",
+  authDomain: "local-d18df.firebaseapp.com",
+  projectId: "local-d18df",
+  storageBucket: "local-d18df.appspot.com",
+  messagingSenderId: "90999257626",
+  appId: "1:90999257626:web:a734659f6d59794b8d2fa3"
 };
 
 const firebase = Firebase.initializeApp(config);
 
-seedDatabase(firebase);
+// seedDatabase(firebase);
 
 export { firebase };
