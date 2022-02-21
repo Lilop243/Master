@@ -6,6 +6,7 @@ import { App } from '../src/app';
 import { firebase } from './lib/firebase.prod';
 import { FirebaseContext } from './context/firebase';
 
+
 render(
   <React.StrictMode>
     <FirebaseContext.Provider value={{ firebase }}>

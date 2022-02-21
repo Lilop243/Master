@@ -6,7 +6,7 @@ import logo from '../logo.svg';
 import { FirebaseContext } from '../context/firebase';
 import { SelectProfileContainer } from './profiles';
 import { FooterContainer } from './footer';
-import { Carousel } from 'react-bootstrap';
+import {Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -62,6 +62,7 @@ export function BrowseContainer({ slides }) {
             <Header.TextLink active={category === 'films' ? 'true' : 'false'} onClick={() => setCategory('films')}>
               Menos Valoradas
             </Header.TextLink>
+
           </Header.Group>
           <Header.Group>
             <Header.Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
@@ -105,8 +106,13 @@ export function BrowseContainer({ slides }) {
     </Carousel.Item>
   </Carousel>
 
-      </Header>
+  
 
+      </Header>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Card.Group>
         {slideRows.map((slideItem) => (
           <Card key={`${category}-${slideItem.title.toLowerCase()}`}>
