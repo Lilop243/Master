@@ -62,6 +62,7 @@ export function BrowseContainer({ slides }) {
             <Header.TextLink active={category === 'films' ? 'true' : 'false'} onClick={() => setCategory('films')}>
               Menos Valoradas
             </Header.TextLink>
+            
 
           </Header.Group>
           <Header.Group>
@@ -104,7 +105,7 @@ export function BrowseContainer({ slides }) {
       />
      
     </Carousel.Item>
-  </Carousel>
+  </Carousel> 
 
   
 
